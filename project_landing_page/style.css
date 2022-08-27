@@ -24,7 +24,7 @@ body {
 .header-logo {
     font-size: 24px;
     font-weight: 700;
-    color: #F9FAF8 ;
+    color: #F9FAF8;
 }
 
 .hero-text-wrapper {
@@ -40,7 +40,7 @@ body {
     margin: 0 30px 0 0;
     font-size: 48px;
     font-weight: 700;
-    color: #F9FAF8 ;
+    color: #F9FAF8;
 }
 
 .header-links {
@@ -56,6 +56,7 @@ body {
 .header-links a,
 .hero-secondary-text {
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
 }
 
@@ -70,7 +71,7 @@ body {
     background: #E5E7EB;
 }
 
-button {
+.button-1 {
     background-color: #3882F6;
     border: none;
     border-radius: 6px;
@@ -146,4 +147,64 @@ button {
     align-self: flex-end;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* 4th section styling */
+.call-to-action-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+.call-to-action-container {
+    display: flex;
+    background: #3882F6;
+    width: 70%;
+    height: 50%;
+    border-radius: 6px;
+}
+
+.call-to-action-text-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-text-sub-wrapper {
+    width: 70%;
+
+}
+
+.call-to-action-headline {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.call-to-action-sub-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.call-to-action-button-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-2 {
+    background-color: transparent;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
