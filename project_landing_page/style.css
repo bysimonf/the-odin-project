@@ -83,6 +83,7 @@ body {
 /* 2nd section styling */
 
 .information-gallery {
+    height: 350px;
     padding: 0 150px 20px 150px;
 }
 
@@ -207,4 +208,16 @@ body {
     padding: 5px 20px 5px 20px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* footer styling */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #1F2937;
+    font-size: 14px;
+    color: #E5E7EB; 
 }
